@@ -82,17 +82,21 @@ footer .col-md-4 {
     width: 10%;
 }
 
-.col-md-4,
-img {
+.col-md-4 img {
     margin-top: 10px;
     width: 40%;
+}
+
+.contactos img {
+    margin-left: 10%;
+    margin-top: 15px;
 }
 
 
 /*Section*/
 
 .section {
-    margin-left: 15%;
+    margin-left: 200px;
 }
 
 .biografia {
@@ -159,9 +163,9 @@ a {
 }
 
 .contactos ul {
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-bottom: 5%;
+    margin-top: 15px;
+    margin-left: 60px;
+    margin-bottom: 15px;
 }
 
 #article1 {
