@@ -1,65 +1,119 @@
-body {
-    background: #FFFFBF;
-    margin-left: 10em;
-    margin-right: 10em;
+.bg-juan {
+    background-color: rgba(9, 108, 238, 0.986);
+}
+
+.bg-jesus {
+    background-color: rgba(44, 44, 44, 0.4);
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
 }
 
 header {
-    display: block;
-    margin: 0 !important;
-    background: url(../images/separateur.png) repeat-x bottom;
+    width: 100%;
 }
 
-#logo-zozor {
+.bg-biografia {
+    background-color: rgba(44, 44, 44, 0.8);
+    color: azure;
+    text-align: center;
+    width: 100%;
+}
+
+.bg-peliculas {
+    background-color: rgba(44, 44, 44, 0.9);
+    text-align: left;
+    color: azure;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.context-dark,
+.bg-gray-dark,
+.bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a,
+.footer-classic a:focus,
+.footer-classic a:active {
+    color: #ffffff;
+}
+
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 23px;
+    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.social-container .col {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav-list li a:before {
+    content: "\f14f";
+    font: 400 21px/1 "Material Design Icons";
+    color: #4d6de6;
     display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
 }
 
-#logo-zozor h1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    display: inline-block;
+footer {
+    margin-top: 20px;
+    width: 100%;
 }
 
-#logo-zozor h2 {
-    font-size: 1.1em;
-    margin-top: 0px;
-    font-weight: normal;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+#tabla {
+    border: 1px solid black;
 }
 
-.nav {
-    display: inline-block;
-    margin-left: 42%;
+#centrar {
+    text-align: center;
 }
 
-.nav ul {
+#social {
     text-align: right;
 }
 
-.nav ul li {
-    list-style: none;
-    display: inline-block;
-    margin: 5px;
+#justificar {
+    text-align: justify;
 }
-
-.nav a {
-    text-decoration: none;
-    font-size: 1.3em;
-    color: #000;
-}
-
-.nav i {
-    font-size: 1.3em;
-    color: #000;
-}
-
-
-/*NAV PARA IMAGEN GRANDE*/
 
 #image-nav {
-    background: url(../images/sanfrancisco.jpg) no-repeat;
-    margin-top: 15px;
+    background: url(../Multimedia/banner1.png) no-repeat;
     height: 220px;
-    border-radius: 5px;
     position: relative;
     box-shadow: 0px 4px 4px #1c1a19;
     margin-bottom: 25px;
@@ -77,132 +131,8 @@ header {
     width: 100%;
     font-size: .9em;
     color: white;
-    border-radius: 5px;
+    border-radius: 0;
     margin-top: 5px;
     height: 50px;
-    text-align: left;
-}
-
-.redirect-article {
-    margin-top: 10px;
-    text-decoration: none;
-    background: #ad0205;
-    border: 2px solid #760001;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 10px;
-    width: 7em;
-    font-size: .9em;
-    border-radius: 5px;
     text-align: center;
-    display: inline-block;
-    padding-right: 5px;
-}
-
-.redirect-article i {
-    margin-left: 5px;
-}
-
-section {
-    display: block;
-}
-
-
-/*ARTICULO*/
-
-article {
-    float: left;
-    width: 72%;
-    margin: 5px;
-}
-
-article .icon-epi {
-    vertical-align: middle;
-    margin-right: 8px;
-}
-
-article h1 {
-    font-weight: normal;
-    text-transform: uppercase;
-    display: block;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-article,
-aside {
-    display: inline-block;
-    vertical-align: top;
-    text-align: justify;
-}
-
-
-/*ASIDE*/
-
-aside {
-    margin-left: 20px;
-    float: left;
-    width: calc(28% - 30px);
-    background-color: #706b64;
-    border-radius: 5px;
-    color: white;
-}
-
-.aside>h1,
-div {
-    text-align: center;
-}
-
-aside>img {
-    position: relative;
-    top: 90px;
-    left: -12px !important;
-}
-
-aside p {
-    text-align: justify;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-aside .social-red {
-    text-align: center !important;
-    align-content: center !important;
-}
-
-
-/*FOOTER*/
-
-footer {
-    position: relative;
-    background: url(../images/separateur.png) repeat-x top center, url(../images/ico_top.png) no-repeat top center;
-}
-
-footer .col-md-3 {
-    float: left;
-    width: 33.3333%;
-}
-
-footer .title {
-    text-align: left;
-}
-
-.title h1 {
-    font-weight: normal;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 1.75em;
-    text-transform: uppercase;
-}
-
-.title p {
-    font-weight: normal;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: .9em;
-}
-
-footer ul {
-    columns: 2;
-}
-
-footer li {
-    list-style-image: url(../images/ico_liensexterne.png);
 }

@@ -1,89 +1,280 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Turismo</title>
-    <meta name="author" content="Juan León">
-    <meta name="keywords" content="informacion, turismo, contactos">
-    <meta name="description" content="Hoja de vida de Juan Jesús León Vásquez y destinos turisticos de cajamarca">
-    <link rel="shortcut icon" href="../Multimedia/goku4.png">
-    <link rel="stylesheet" href="../CSS/estilos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script src="https://kit.fontawesome.com/c5a1fbbf4f.js"></script>
 </head>
 
 <body>
-    <header>
-        <h1 id="titulo"></h1>
-        <nav id="nav">
-            <a href="../index.html">Inicio</a> |
-            <a href="../Paginas/contactos.html">Contactos</a> |
-            <a class="select" href="../Paginas/turismo.html">Turismo</a> |
-            <a href="../Paginas/trabajo.html">Trabajo</a>
-        </nav>
-    </header>
-    <nav id="image-nav">
-        <div>
-            <h1 class="redirect-article">DESTINOS TURÍSTICOS</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="position: fixed; box-shadow: 0 1px 2px #333;">
+        <a class="navbar-brand" href="../index.html"><img src="../Multimedia/goku4.png" height="50px" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="../Paginas/contactos.html">Contactos</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="../Paginas/turismo.html">Turismo</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+            </form>
         </div>
     </nav>
-    <section>
-        <article class="turismo">
-            <article class="porcon">
-                <h3>Granja Porcon</h3>
-                <br> El pueblo de Granja Porcón vive una vida aparte de la locura de la ciudad. Le gusta mostrar a sus visitantes la paz y la tranquilidad que vienen de su vida simple, los cuales traen consigo el poder de sanar su alma.
-            </article>
-            <article class="vporcon">
-                <iframe src="https://www.youtube.com/embed/GRererEP9go" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen width="40%"></iframe>
-            </article>
-        </article>
-        <article class="turismo">
-            <article class="porcon">
-                <h3>Santuario Virgen del Rosario</h3>
-                <br> Ubicado en el centro poblado El Rosario de Polloc, el templo maravilla a sus visitantes con sus paredes, columnas, techos y piso decorados bajo la técnica de mosaico. El santuario de la Virgen del Rosario es el principal atractivo
-                del centro poblado “El Rosario de Polloc” y no podía ser de otra forma. Quién ingresa a este lugar queda maravillado por su belleza.
-            </article>
-
-            <article class="vporcon">
-                <iframe src="https://www.youtube.com/embed/1jzdhlZbjMk" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen width="40%"></iframe>
-            </article>
-        </article>
-        <article class="turismo">
-            <article class="porcon">
-                <h3>Santa Apolonia</h3>
-                <br> Su nombre original fue rumitiana o rumipascana que en quechua significa “Asiento de Piedra”. Formación rocosa de origen volcánico. Ubicado en la parte alta a inmediaciones de la Plaza de Armas, constituye un elemento plenamente integrado
-                al espacio y paisaje urbano. Los colonos la llamaron en un inicio San Francisco de Monte Alberna. Después llevó el nombre con el que actualmente se le conoce como Santa Apolonia por haber sido sede de una capilla en honor a la Santa del
-                mismo nombre.
-            </article>
-            <article class="vporcon">
-                <iframe src="https://www.youtube.com/embed/4j4zMETa1M8" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen width="40%"></iframe>
-            </article>
-        </article>
-        <article class="turismo">
-            <article class="porcon">
-                <h3>Ventanillas de Otuzco</h3>
-                <br> Conocida arqueológicamente como necrópolis de Otuzco. Su denominación, “ventanillas”, proviene del aspecto que ofrecen como conjunto de cavidades dispuestas en hileras consecutivas horizontales. Las ventanillas son concavidades de
-                forma cuadrada y rectangular, talladas en bajo relieve en una superficie rocosa de origen volcánico. Algunas evidencias permiten señalar que corresponden a la cultura Cajamarca, que tuvo influencia entre los años 300 y 800 dc.
-            </article>
-            <article class="vporcon">
-                <iframe src="https://www.youtube.com/embed/mCL1SuhPAGg" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen width="40%"></iframe>
-            </article>
-        </article>
-    </section>
-    <aside>
-
-    </aside>
-    <footer>
-        <div class="col-md-3">
-            <address>Autor: Juan León</address>
-            <abbr title="UniversidadNacional de Cajamarca">UNC</abbr> Correo: <a href="mailto:jleonv15@unc.edu.pe">jleonv15@unc.edu.pe</a><br> Telefono: <a href="tel:+51961343351"> +961343351 </a>
-            <section id="copyright">&copy; 2019 </section>
+    <header>
+        <div class="bd-example" style="margin-top: 79px">
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../Multimedia/sierra.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block bg-jesus">
+                            <h5>Costa </h5>
+                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../Multimedia/selva2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block bg-jesus">
+                            <h5>Selva</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../Multimedia/turismos3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block bg-jesus">
+                            <h5>Sierra</h5>
+                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
         </div>
-        <div class="col-md-4">
-            <a href="https://www.facebook.com/juanjesus.leonvasquez.16" target="_blank"> <img src="../Multimedia/fb.png" alt="fb"> </a>
-            <a href="https://www.instagram.com/juanjesusleonvasquez/?hl=es-la" target="_blank"> <img src="../Multimedia/instagram.png"></a>
+    </header>
+    <section>
+        <div class="bg-biografia">
+            <br>
+        </div>
+    </section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+
+            </div>
+            <div class="col-sm" style="padding-top: 30px">
+                <h2>CAJAMARCA</h2>
+                <br>
+                <p id="justificar">
+                    Cajamarca es una ciudad del área montañosa del norte de Perú, en la cordillera de los Andes. La plaza principal histórica, la Plaza de Armas, está rodeada de arquitectura colonial barroca. La Catedral de Cajamarca tiene un altar cubierto de pan de oro,
+                    mientras que el Monasterio de San Francisco tiene catacumbas y un museo de arte religioso. Cerca está el Cuarto del Rescate, donde mantuvieron prisionero al último emperador inca, Atahualpa.
+                </p>
+            </div>
+            <div class="col-sm" style="padding-top: 80px">
+                <img src="../Multimedia/cajamarca.jpg" alt="" width="100%">
+                <img src="../Multimedia/cajamarca.jpg" alt="" width="100%">
+                <img src="../Multimedia/cajamarca.jpg" alt="" width="100%">
+                <br>
+            </div>
+            <div class="col-sm">
+
+            </div>
+        </div>
+    </div>
+    <div class="bg-peliculas container">
+        <h2>DESTINOS MÁS POPULARES</h2>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <main>
+                    <div class="card" style="width: 18rem; margin-bottom: 20px ">
+                        <img src="../Multimedia/la colpa.jpg" class="card-img-top" alt="..." width="300px" height="320px">
+                        <div class="card-body">
+                            <h5 class="card-title">LA COLPA</h5>
+                        </div>
+                        <div id="centrar">
+                            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1">ver más</a>
+                        </div>
+                    </div>
+                </main>
+            </div>
+            <div class="col-md-4">
+
+                <div class="card" style="width: 18rem; margin-bottom: 20px ">
+                    <img src="../Multimedia/CUMBEMAYO.jpg" class="card-img-top" alt="..." width="300px" height="320px">
+                    <div class="card-body">
+                        <h5 class="card-title">CUMBE MAYO</h5>
+                    </div>
+                    <div id="centrar">
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <aside>
+                    <div class="card" style="width: 18rem;margin-bottom: 20px ">
+                        <img src="../Multimedia/otuzco.jpg" class="card-img-top" alt="..." width="300px" height="320px">
+                        <div class="card-body">
+                            <h5 class="card-title">VENTANILLAS DE OTUZCO</h5>
+                        </div>
+                        <div id="centrar">
+                            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal3">ver más</a>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </div>
+
+    <footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
+        <div class="container">
+            <br>
+            <div class="row row-30">
+                <div class="col-md-4 col-xl-5">
+                    <div class="pr-xl-4">
+                        <a class="brand" href="index.html"><i class="fab fa-accusoft"></i></a>
+                        <p>We are an award-winning creative agency, dedicated to the best result in web design, promotion, business consulting, and marketing.</p>
+                        <!-- Rights-->
+                        <p class="rights"><span>©  </span><span class="copyright-year">2019 Jesús León U.N.C</span></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contactame</h5>
+                    <dl class="contact-list">
+                        <dt>Dirección:</dt>
+                        <dd>Prolongación Pachacutec #511 - B.I</dd>
+                    </dl>
+                    <dl class="contact-list">
+                        <dt>Correo:</dt>
+                        <dd><a href="mailto:#">jleonv15@unc.edu.pe</a></dd>
+                    </dl>
+                    <dl class="contact-list">
+                        <dt>Telefonos:</dt>
+                        <dd><a href="tel:#">+51 961343351</a> <span>or</span> <a href="tel:#">+51 9571195353</a>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="col-md-4 col-xl-3">
+                    <h5>Links</h5>
+                    <ul class="nav-list">
+                        <li><a href="#">Acerca de Jesús León</a></li>
+                        <li><a href="#">Proyectos</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contactos</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row no-gutters social-container">
+            <div class="col " style="display: inline-block" id="social">
+                <a href="https://www.facebook.com/juanjesus.leonvasquez.16" target="_blank" style="font-size: 3rem;">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+                <a href="mailto:jleonv15@unc.edu.pe" style="font-size: 3rem;">
+                    <i class="fab fa-google-plus"></i>
+                </a>
+                <a href="tel:961343351" style="font-size: 3rem;">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://www.instagram.com/juanjesusleonvasquez/?hl=es-la" target="_blank" style="font-size: 3rem;">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
         </div>
     </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">La Colpa</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" id="centrar">
+                    <iframe width="100%" src="https://www.youtube.com/embed/V8l8sXqPgRw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p id="justificar"><br>Un mercenario y sus hombres se enteran de que su misión para derrocar a un dictador sudamericano es una misión suicida.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Cumbe Mayo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body" id="centrar">
+                    <iframe width="100%" src=" https://www.youtube.com/embed/hSJNvZbxc60" frameborder="0 " allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
+                    <p id="justificar "><br>El exconvicto Dominic Toretto se une a su viejo adversario, Brian O'Conner, que ahora trabaja para el FBI en Los Ángeles, con el fin de infiltrarse en una organización criminal que se dedica a introducir heroína en la ciudad.</p>
+                </div>
+                <div class="modal-footer ">
+                    <button type="button " class="btn btn-secondary " data-dismiss="modal ">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ventanillas de Otuzco</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" id="centrar">
+                    <iframe src="https://www.youtube.com/embed/mCL1SuhPAGg" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen width="100%"></iframe>
+                    <p id="justificar"><br>Un mercenario y sus hombres se enteran de que su misión para derrocar a un dictador sudamericano es una misión suicida.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
 </body>
 
 </html>
