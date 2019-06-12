@@ -111,6 +111,10 @@ footer {
     text-align: justify;
 }
 
+#izquierda {
+    text-align: left;
+}
+
 #image-nav {
     background: url(../Multimedia/banner1.png) no-repeat;
     height: 220px;
